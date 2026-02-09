@@ -1,47 +1,47 @@
-Visualization of Academic Performance Indicators Using R
+📌 Project Description
 
-Name: Navin Varshan R
-Roll No: 23BAD075
+This experiment demonstrates the use of data visualization techniques using R and ggplot2 to analyze the internal assessment performance of first-year engineering students. The project focuses on visually interpreting academic performance across multiple subjects using indicators such as internal test scores, assignment marks, and final grades.
 
-Objective
+The visualizations implemented help in:
 
-To analyze and visualize the internal assessment performance of first-year engineering students across multiple subjects using appropriate data visualization techniques in R.
+Understanding subject-wise academic performance
 
-Software and Tools Used
+Identifying performance trends across internal assessments
 
-R Version: 4.4.1
+Analyzing grade distribution among students
 
-R Packages:
+Highlighting subjects with lower overall performance
 
-ggplot2
-
-dplyr
-
-tidyr
-
-Dataset Description
+📂 Dataset Used
 
 File Name: 1.student_performance.csv
 
-Description:
-The dataset contains internal assessment details of students, including:
+Expected Columns:
 
-Roll Number
+Roll_Number
 
 Subject
 
-Internal Test 1 Marks
+Internal_Test_1
 
-Internal Test 2 Marks
+Internal_Test_2
 
-Assignment Marks
+Assignment_Marks
 
-Final Grade
+Final_Grade
 
-Steps Performed
+🛠 Libraries Required
+
+The following R libraries are used in this experiment:
+
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+⚙️ Steps Performed
 1. Load Required Libraries
 
-Necessary libraries for data manipulation and visualization are loaded using the library() function.
+All necessary libraries for data manipulation and visualization are loaded using the library() function.
 
 2. Import Dataset
 
@@ -49,43 +49,43 @@ The dataset is imported into R using the read.csv() function.
 
 3. Data Preprocessing
 
-A new column, Average_Marks, is computed by calculating the mean of:
+A new column Average_Marks is calculated by averaging:
 
-Internal Test 1 Marks
+Internal Test 1 marks
 
-Internal Test 2 Marks
+Internal Test 2 marks
 
-Assignment Marks
+Assignment marks
 
 4. Data Visualization
 a) Bar Chart – Subject-wise Average Marks
 
-Displays the average internal marks for each subject.
+Displays the average internal marks for each subject
 
-Helps identify subjects with lower overall performance.
+Helps identify subjects with lower overall performance
 
 b) Line Chart – Performance Trend Across Tests
 
-Shows the trend of average student performance across internal tests.
+Shows the trend of average performance across internal assessments
 
-Useful for analyzing improvement or decline in performance over time.
+Useful for analyzing improvement or decline
 
 c) Pie Chart – Grade Distribution
 
-Represents the distribution of final grades among students.
+Represents the distribution of final grades
 
-Provides a clear overview of overall academic outcomes.
+Provides a clear overview of academic outcomes
 
-Output Generated
+📊 Output Generated
 
 Bar chart showing subject-wise average marks
 
-Line chart depicting performance trends across internal tests
+Line chart illustrating performance trends across tests
 
-Pie chart illustrating grade distribution
+Pie chart representing grade distribution
 
-(Screenshots of the code and outputs are included separately.)
+(Screenshots of code and outputs are included separately.)
 
-Conclusion
+✅ Conclusion
 
-The visualization techniques used in this analysis effectively highlight subject difficulty levels, performance trends, and grade distribution. Such insights can help academic institutions identify weak areas and improve teaching and evaluation strategies.
+The visualization techniques used in this experiment effectively highlight subject difficulty, performance trends, and overall grade distribution. Such analysis helps academic institutions identify weak areas and improve teaching and evaluation strategies.
